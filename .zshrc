@@ -10,7 +10,9 @@ source "$HOME/.antigen/antigen.zsh"
 # Git
 antigen use oh-my-zsh
 antigen bundle arialdomartini/oh-my-git
-antigen theme arialdomartini/oh-my-git-themes oppa-lana-style
+#antigen theme arialdomartini/oh-my-git-themes oppa-lana-style
+antigen theme arialdomartini/oh-my-git-themes arialdo-pathinline
+#antigen theme arialdomartini/oh-my-git-themes arialdo-granzestyle
 
 antigen apply
 
@@ -31,4 +33,5 @@ docker() {
      /usr/local/bin/docker "$@"
   fi
 }
+
 
